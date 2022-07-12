@@ -1,0 +1,35 @@
+.container .urlTable {
+  font-family: Arial, Helvetica, sans-serif;
+  /* border-collapse: collapse; */
+  width: 100%;
+  color: #012169;
+}
+
+.container .urlTable td, .urlTable th {
+  /* border: 1px solid #72A0C1; */
+  padding: 8px;
+}
+
+.container .urlTable tr:nth-child(even){background-color: #b6dafc;}
+
+.container .urlTable tr:hover {background-color: #E1EBEE;}
+
+.container .urlTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0066b2;
+  color: white;
+}
+
+.urlBadRequest{
+  color: red;
+  padding: 0px;
+}
+
+.container .urlTable .mockButton{
+  border: none;
+  background-color: white;
+  padding: 0px;
+  padding-left: 8px;
+}
